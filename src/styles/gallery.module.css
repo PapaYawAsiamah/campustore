@@ -1,0 +1,26 @@
+.pics{
+    width: 15%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    margin: 2%;
+    height: auto;
+    object-fit: cover;
+}
+
+.gallimg{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+@media only screen and (max-width: 1024px) {
+    .pics{
+        width: 100%;
+      margin: 20px 0;
+     
+    }
+    .gallimg{
+        width: 100%;
+        height: auto;
+    }
+}
